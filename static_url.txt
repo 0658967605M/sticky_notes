@@ -1,0 +1,4 @@
+static_url
+
+
+https://0658967605m.github.io/my-static-side/

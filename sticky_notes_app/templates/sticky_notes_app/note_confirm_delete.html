@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Delete Note</title>
+</head>
+<body class="container mt-4">
+
+<h3>Delete "{{ note.title }}"?</h3>
+
+<form method="post">
+    {% csrf_token %}
+    <button class="btn btn-danger">Confirm</button>
+    <a href="{% url 'home' %}" class="btn btn-secondary">Cancel</a>
+</form>
+
+</body>
+</html>
